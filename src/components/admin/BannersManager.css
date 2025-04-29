@@ -1,0 +1,135 @@
+.banners-manager {
+  padding: 20px;
+}
+
+.banners-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.add-banner-btn {
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-banner-btn:hover {
+  background-color: #45a049;
+}
+
+.banner-form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.form-group input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.form-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.form-actions button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-actions button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.form-actions button[type="button"] {
+  background-color: #f44336;
+  color: white;
+}
+
+.banners-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.banner-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.banner-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.banner-info {
+  padding: 15px;
+}
+
+.banner-info h3 {
+  margin: 0 0 10px 0;
+}
+
+.banner-info p {
+  margin: 0 0 10px 0;
+  color: #666;
+}
+
+.banner-status {
+  font-size: 0.9em;
+  color: #666;
+}
+
+.banner-actions {
+  padding: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.banner-actions button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.banner-actions button:first-child {
+  background-color: #2196F3;
+  color: white;
+}
+
+.banner-actions button:last-child {
+  background-color: #f44336;
+  color: white;
+} 
